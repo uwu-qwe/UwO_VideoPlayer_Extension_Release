@@ -5,7 +5,7 @@
 **This is only available for offline/private lobbies. All players must have this installed!**
 ## Installation
 1. Put the `UnityEngine.VideoModule.dll` in the Dllstouse.
-2. Put the `UwO_VideoPlayer_Extension_v1.0.1.dll` in the plugins folder (Should be in `KoboldKare\BepInEx\plugins`).
+2. Put the `UwO_VideoPlayer_Extension.dll` in the plugins folder (Should be in `KoboldKare\BepInEx\plugins`).
 3. Subscribe to my workshop mod for the actual video player screen: https://steamcommunity.com/sharedfiles/filedetails/?id=3430064473 (Remember to enable the mod)
 ## How to use
  **Only the host has the ability to control video players. So only the host can `Set URL`, Play, Pause etc.**
