@@ -29,10 +29,10 @@ The workaround to get pretty much any video to play is rather tedious, but so fa
 5. Go to the `Encoding` tab in the program and tick the `Activate mp4 conversion` on under "Video". Ensure the encoding is H.264. Also tick `Enable audio` on under "Audio" if you want the video to play that as well.
 6. Set an output location for your MP4 video and click the big `Convert` button in the top-right corner and it should start converting it to a playable format (unless you encounter an error).
 7. Once it's done converting, upload it somewhere where you can get the direct link to the file. If you have Discord Nitro I recommend uploading it somewhere on Discord and copying the link to the video (right click on the video and click `Copy Link` at the bottom. You can now paste this link into the video player menu and it should play.
-8. ||Have fun~ And remember... NO NAUGHTY STUFF <:5801blobbycop:1122108665718112357> ||
 ## Playing a video locally
-It's possible to play videos directly from your hard drive, but for this to work in multiplayer, the video player plugin assumes the video file to have the exact same path as the host. For example:
-`file:///C:/Not Porn/DefinitelySFWMovie.mp4`
+It's possible to play videos directly from your hard drive, but for this to work in multiplayer, the video player plugin assumes the video file to have the exact same path as the host.
+
+For example: `file:///C:/Not Porn/DefinitelySFWMovie.mp4`
 
 There's not guarantee it'll play the video unless it's a compatible file type and has compatible encodings.
 ## For modders
