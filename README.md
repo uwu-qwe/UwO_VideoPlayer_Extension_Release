@@ -23,6 +23,8 @@
 ## Video compatibility
 You can't play YouTube videos directly and there's a lot of weird oddities with the video player. It will usually depend on the video/audio encoding, but some webm files will play while others will not. MP4 files are usually the way to go.
 
+For shorter YouTube videos, I recommend using this site https://cnvmp3.com/v14, otherwise proceed to below:
+
 The workaround to get pretty much any video to play is rather tedious, but so far has had a 100% success rate:
 1. Download and install: https://sourceforge.net/projects/avisynth2/
 2. Download and extract somewhere: https://github.com/argorar/WebMConverter/releases/download/3.42.0/WebMConverter-3.42.0.zip
