@@ -2,7 +2,7 @@
 
 **It is assumed that you have BepInEx 5.4.22 installed to use this.**
 
-**This is only available for offline/private lobbies. All players must have this installed!**
+**All players must have this installed!**
 ## Installation
 1. Put the `UnityEngine.VideoModule.dll` in the Dllstouse.
 2. Put the `UwO_VideoPlayer_Extension.dll` in the plugins folder (Should be in `KoboldKare\BepInEx\plugins`).
