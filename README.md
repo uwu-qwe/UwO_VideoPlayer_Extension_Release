@@ -1,17 +1,25 @@
 # UwO_VideoPlayer_Extension_Release
+![Image](https://github.com/user-attachments/assets/ed10e5d8-b624-4807-a42c-786a8b21f125)
+![Image](https://github.com/user-attachments/assets/099c1583-2960-4ae5-8d34-5cf9fabcb788)
 
 **It is assumed that you have BepInEx 5.4.22 installed to use this.**
 
 **All players must have this installed!**
-## Installation
+
+## Installation if BepInEx IS NOT installed
+1. Unpack the contents of `Bepin VPE.7z` into your KoboldKare game folder (where the .exe is).
+2. Subscribe to my workshop mod for the actual video player screen: https://steamcommunity.com/sharedfiles/filedetails/?id=3430064473
+3. Run the game and it should work!
+
+## Installation if BepInEx IS installed
 1. Put the `UnityEngine.VideoModule.dll` in the Dllstouse.
 2. Put the `UwO_VideoPlayer_Extension.dll` in the plugins folder (Should be in `KoboldKare\BepInEx\plugins`).
 3. Subscribe to my workshop mod for the actual video player screen: https://steamcommunity.com/sharedfiles/filedetails/?id=3430064473
+
 ## How to use
  **Only the host has the ability to control video players. So only the host can `Set URL`, Play, Pause etc.**
 
 **The plugin can be enabled for public lobbies by putting `(V)` in the lobby name when creating/hosting it.**
-
 1. Spawn in a video player using one of the following commands:
 `/give uwoHugeVP`
 `/give uwoBigVP`
@@ -20,6 +28,7 @@
 2. Press the menu for showing video players (Default is F10).
 3. Paste a direct link of the video you want to play into the URL text field and press the button `Set URL`.
 4. The video player will auto play when it's ready.
+
 ## Video compatibility
 You can't play YouTube videos directly and there's a lot of weird oddities with the video player. It will usually depend on the video/audio encoding, but some webm files will play while others will not. MP4 files are usually the way to go.
 
@@ -33,12 +42,14 @@ The workaround to get pretty much any video to play is rather tedious, but so fa
 5. Go to the `Encoding` tab in the program and tick the `Activate mp4 conversion` on under "Video". Ensure the encoding is H.264. Also tick `Enable audio` on under "Audio" if you want the video to play that as well.
 6. Set an output location for your MP4 video and click the big `Convert` button in the top-right corner and it should start converting it to a playable format (unless you encounter an error).
 7. Once it's done converting, upload it somewhere where you can get the direct link to the file. If you have Discord Nitro I recommend uploading it somewhere on Discord and copying the link to the video (right click on the video and click `Copy Link` at the bottom. You can now paste this link into the video player menu and it should play.
+
 ## Playing a video locally
 It's possible to play videos directly from your hard drive, but for this to work in multiplayer, the video player plugin assumes the video file to have the exact same path as the host.
 
 For example: `file:///C:/Not Porn/DefinitelySFWMovie.mp4`
 
 There's not guarantee it'll play the video unless it's a compatible file type and has compatible encodings.
+
 ## For modders
 If you'd like to make your own video player object that's compatible with my plugin you should make sure do the following for the object:
 
