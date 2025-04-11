@@ -19,7 +19,6 @@
 ## How to use
  **Only the host has the ability to control video players. So only the host can `Set URL`, Play, Pause etc.**
 
-**The plugin can be enabled for public lobbies by putting `(V)` in the lobby name when creating/hosting it.**
 1. Spawn in a video player using one of the following commands:  
 `/give uwoHugeVP`  
 `/give uwoBigVP`  
